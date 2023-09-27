@@ -31,7 +31,7 @@ int main(int argc, const char * argv[]) {
         
         for(NSTextCheckingResult *matchResultado in matches){
             NSString *match = [cadena substringWithRange:matchResultado.range];
-            NSLog(@"Coincidencia: %@", match);
+            NSLog(@"El correo %@ es válido", match);
         }
     }
     return 0;
